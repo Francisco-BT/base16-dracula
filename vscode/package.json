@@ -1,0 +1,20 @@
+{
+  "name": "base16-dracula-theme",
+  "displayName": "Base16 Dracula Theme",
+  "description": "Base16 Dracula (ported from base16-dracula-scheme).",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Base16 Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./base16-dracula-color-theme.json"
+      }
+    ]
+  }
+}
