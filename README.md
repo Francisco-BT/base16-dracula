@@ -1,31 +1,42 @@
-## Base16 Dracula (Neovim + VS Code)
+# Base16 Dracula
 
-Este folder es un “staging area” para convertir tu `base16-dracula` en un repo propio y mantener **solo ese** esquema (sin traer el resto de `base16-*`).
+Esquema **Base16** con acento Dracula: paleta en `dracula.yaml`, implementación para **Neovim** (Lua) y un tema mínimo para **VS Code**.
 
-### Paleta (source of truth)
+El `base00` está afinado a un fondo tipo **Rosé Pine Moon** (`#232136`); el resto de slots siguen la lógica Base16.
 
-- `dracula.yaml`: paleta Base16 (con un `base00` afinado a un fondo tipo **Rosé Pine Moon**).
+## Estructura
 
-### VS Code
+| Ruta | Rol |
+|------|-----|
+| `dracula.yaml` | Fuente de la paleta (Base16). |
+| `colors/base16-dracula.lua` | Colorscheme Neovim (`:colorscheme base16-dracula`). |
+| `vscode/base16-dracula-color-theme.json` | UI + `tokenColors` para VS Code. |
+| `vscode/package.json` | Extensión local (versión actual en el manifest). |
 
-Tema mínimo en:
+## Neovim
 
-- `vscode/base16-dracula-color-theme.json`
-- `vscode/package.json`
+### Instalación (lazy.nvim)
 
-Para probarlo rápido (sin publicar):
+```lua
+{
+  "Francisco-BT/base16-dracula",
+  priority = 1000,
+  config = function()
+    vim.cmd.colorscheme("base16-dracula")
+  end,
+}
+```
 
-- Abre `themes/base16-dracula/vscode/` en VS Code
-- Ejecuta `Run and Debug` → `Extension` (o `F5`)
-- En la ventana “Extension Development Host”, selecciona el tema `Base16 Dracula`
+Para desarrollar contra un clon local, usa `dir = "/ruta/al/repo"` (o la variable de entorno que expongas en tu config).
 
-### Neovim
+### Notas
 
-En tu config actual, el default queda en `base16-dracula` y puedes cambiarlo con:
+- Incluye highlights para **Treesitter** y tokens semánticos **LSP** (`@lsp.*`) con grupos **sin** sufijo de `filetype` cuando aplica, de modo que el mismo esquema sirva en cualquier lenguaje que use el servidor estándar (véase `:h lsp-semantic-highlight`).
 
-- `:Theme base16-dracula`
-- `:Theme kanagawa`
-- `:Theme night-owl`
-- `:Theme oxocarbon`
+## VS Code
 
-Neovim carga el colorscheme desde `colors/base16-dracula.lua`.
+1. Abre la carpeta `vscode/` en VS Code.
+2. **Run and Debug** → **Extension** (o `F5`).
+3. En la ventana *Extension Development Host*, elige el tema **Base16 Dracula**.
+
+`engines.vscode` y la versión de la extensión están en `vscode/package.json`. Para uso diario sin publicar en Marketplace, puedes empaquetar con `vsce package` e instalar el `.vsix` localmente.
