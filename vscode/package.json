@@ -1,13 +1,27 @@
 {
   "name": "base16-dracula-theme",
   "displayName": "Base16 Dracula Theme",
-  "description": "Base16 Dracula (ported from base16-dracula-scheme).",
+  "description": "Dark Base16 + Dracula accents; pairs with the Neovim theme in the same project.",
   "version": "0.1.1",
-  "publisher": "local",
+  "publisher": "franciscobt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Francisco-BT/base16-dracula.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Francisco-BT/base16-dracula/issues"
+  },
+  "homepage": "https://github.com/Francisco-BT/base16-dracula",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": ["Themes"],
+  "keywords": ["base16", "dracula", "dark", "theme", "rose pine"],
+  "galleryBanner": {
+    "color": "#232136",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
