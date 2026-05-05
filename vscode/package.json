@@ -2,10 +2,10 @@
   "name": "base16-dracula-theme",
   "displayName": "Base16 Dracula Theme",
   "description": "Base16 Dracula (ported from base16-dracula-scheme).",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "local",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.96.0"
   },
   "categories": ["Themes"],
   "contributes": {

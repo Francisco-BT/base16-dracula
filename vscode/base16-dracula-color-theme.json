@@ -2,7 +2,7 @@
   "name": "Base16 Dracula",
   "type": "dark",
   "colors": {
-    "editor.background": "#282936",
+    "editor.background": "#232136",
     "editor.foreground": "#e9e9f4",
     "editorLineNumber.foreground": "#626483",
     "editorLineNumber.activeForeground": "#f1f2f8",
@@ -18,18 +18,18 @@
     "editor.findMatchBackground": "#b45bcf55",
     "editor.findMatchHighlightBackground": "#b45bcf33",
     "editorWidget.background": "#3a3c4e",
-    "sideBar.background": "#282936",
+    "sideBar.background": "#232136",
     "sideBar.foreground": "#e9e9f4",
-    "activityBar.background": "#282936",
+    "activityBar.background": "#232136",
     "activityBar.foreground": "#e9e9f4",
-    "statusBar.background": "#282936",
+    "statusBar.background": "#232136",
     "statusBar.foreground": "#e9e9f4",
-    "titleBar.activeBackground": "#282936",
+    "titleBar.activeBackground": "#232136",
     "titleBar.activeForeground": "#e9e9f4",
-    "panel.background": "#282936",
-    "terminal.background": "#282936",
+    "panel.background": "#232136",
+    "terminal.background": "#232136",
     "terminal.foreground": "#e9e9f4",
-    "terminal.ansiBlack": "#282936",
+    "terminal.ansiBlack": "#232136",
     "terminal.ansiRed": "#ea51b2",
     "terminal.ansiGreen": "#ebff87",
     "terminal.ansiYellow": "#00f769",
@@ -50,7 +50,7 @@
     {
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#626483",
+        "foreground": "#6272a4",
         "fontStyle": "italic"
       }
     },
@@ -61,15 +61,21 @@
       }
     },
     {
-      "scope": ["constant.numeric", "constant.language", "constant.character", "constant.other"],
+      "scope": ["constant.numeric", "constant.character", "constant.other"],
       "settings": {
         "foreground": "#b45bcf"
       }
     },
     {
+      "scope": ["constant.language"],
+      "settings": {
+        "foreground": "#98d1ce"
+      }
+    },
+    {
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#ea51b2",
+        "foreground": "#b45bcf",
         "fontStyle": "italic"
       }
     },

@@ -1,6 +1,6 @@
 scheme: "Dracula"
 author: "Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)"
-base00: "282936" # background
+base00: "232136" # background (Rose Pine Moon–like; warmer than classic base16-dracula)
 base01: "3a3c4e"
 base02: "4d4f68"
 base03: "626483"

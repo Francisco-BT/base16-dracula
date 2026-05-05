@@ -4,7 +4,7 @@ Este folder es un “staging area” para convertir tu `base16-dracula` en un re
 
 ### Paleta (source of truth)
 
-- `dracula.yaml`: paleta Base16 oficial.
+- `dracula.yaml`: paleta Base16 (con un `base00` afinado a un fondo tipo **Rosé Pine Moon**).
 
 ### VS Code
 
@@ -28,4 +28,4 @@ En tu config actual, el default queda en `base16-dracula` y puedes cambiarlo con
 - `:Theme night-owl`
 - `:Theme oxocarbon`
 
-Siguiente paso recomendado: extraer un plugin Neovim propio (Lua/Vimscript) que genere los highlights desde `dracula.yaml` y así eliminar la dependencia de `chriskempson/base16-vim` (que trae muchos esquemas).
+Neovim carga el colorscheme desde `colors/base16-dracula.lua`.
