@@ -62,6 +62,10 @@ function M.setup()
   hi("NonText", { fg = p.base02 })
   hi("EndOfBuffer", { fg = p.base00 })
 
+  -- Statusline: tie UI to gutter greys.
+  hi("StatusLine", { fg = p.base05, bg = p.base02 })
+  hi("StatusLineNC", { fg = p.base03, bg = p.base01 })
+
   hi("Comment", { fg = p.base03, italic = true })
   hi("Constant", { fg = p.base09 })
   hi("String", { fg = p.base0B })
