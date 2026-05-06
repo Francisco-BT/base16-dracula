@@ -6,7 +6,7 @@ Hazlo **desde esta carpeta** (`vscode/`), donde está `package.json`.
 
 1. Entra en [Visual Studio Marketplace – Manage publishers](https://marketplace.visualstudio.com/manage).
 2. Inicia sesión con **Microsoft** (crea cuenta si hace falta).
-3. **Create publisher**: elige un **Publisher ID** único (ej. `franciscobt`). No podrás cambiarlo después con facilidad.
+3. **Create publisher**: elige un **Publisher ID** único (este repo usa `Francisco-BT`). No podrás cambiarlo después con facilidad.
 4. Abre `package.json` y pon **`publisher`** al **mismo ID** que creaste.
 
 ## 2. Personal Access Token (PAT)

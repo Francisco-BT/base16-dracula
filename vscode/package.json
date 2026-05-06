@@ -3,7 +3,7 @@
   "displayName": "Base16 Dracula Theme",
   "description": "Dark Base16 + Dracula accents; pairs with the Neovim theme in the same project.",
   "version": "0.1.1",
-  "publisher": "franciscobt",
+  "publisher": "Francisco-BT",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
     "url": "https://github.com/Francisco-BT/base16-dracula/issues"
   },
   "homepage": "https://github.com/Francisco-BT/base16-dracula",
+  "icon": "publisher-logo-128.png",
   "engines": {
     "vscode": "^1.96.0"
   },
