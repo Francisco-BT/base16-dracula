@@ -1,8 +1,8 @@
 {
   "name": "base16-dracula-theme",
   "displayName": "Base16 Dracula Theme",
-  "description": "Dark Base16 + Dracula accents; pairs with the Neovim theme in the same project.",
-  "version": "0.1.4",
+  "description": "Forked Base16 dark theme with Dracula accents, inspired by Rosé Pine and base16-nvim.",
+  "version": "0.1.6",
   "publisher": "Francisco-BT",
   "license": "MIT",
   "repository": {
@@ -18,7 +18,7 @@
     "vscode": "^1.96.0"
   },
   "categories": ["Themes"],
-  "keywords": ["base16", "dracula", "dark", "theme", "rose pine"],
+  "keywords": ["base16", "dracula", "dark", "theme", "colorscheme", "rose-pine", "base16-nvim"],
   "galleryBanner": {
     "color": "#232136",
     "theme": "dark"
