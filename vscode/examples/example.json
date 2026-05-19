@@ -1,0 +1,13 @@
+{
+  "name": "base16-dracula",
+  "version": "0.1.6",
+  "private": false,
+  "tags": ["theme", "dark", "dracula"],
+  "palette": {
+    "background": "#232136",
+    "foreground": "#e9e9f4",
+    "accent": "#62d6e8"
+  },
+  "enabled": true,
+  "retryCount": null
+}

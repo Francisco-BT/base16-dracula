@@ -2,7 +2,7 @@
   "name": "base16-dracula-theme",
   "displayName": "Base16 Dracula Theme",
   "description": "Forked Base16 dark theme with Dracula accents, inspired by Rosé Pine and base16-nvim.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publisher": "Francisco-BT",
   "license": "MIT",
   "repository": {

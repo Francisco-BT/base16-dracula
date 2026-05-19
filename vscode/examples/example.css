@@ -1,0 +1,28 @@
+/* Layout sample for theme preview */
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 48rem;
+  padding: 2rem;
+  background-color: #232136;
+  color: #e9e9f4;
+}
+
+#title:hover {
+  color: #62d6e8;
+  transition: color 200ms ease;
+}
+
+button[type="button"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 1rem;
+  }
+}
